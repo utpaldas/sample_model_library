@@ -1,6 +1,5 @@
 package com.sample.model;
 
-
 public class Address {
 
 	public Address() {
@@ -16,6 +15,8 @@ public class Address {
 	public String city;
 
 	public String countryCode;
+
+	public AddressTypeEnum type;
 
 	public long getId() {
 		return id;
@@ -55,6 +56,14 @@ public class Address {
 
 	public void setCountryCode(String countryCode) {
 		this.countryCode = countryCode;
+	}
+
+	public AddressTypeEnum getType() {
+		return type;
+	}
+
+	public void setType(AddressTypeEnum type) {
+		this.type = type;
 	}
 
 	public String toString() {
