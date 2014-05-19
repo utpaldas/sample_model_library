@@ -10,6 +10,8 @@ public class Employee extends Person {
 
 	private String dept;
 
+	private String managerName;
+
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
@@ -46,4 +48,11 @@ public class Employee extends Person {
 		this.dept = dept;
 	}
 
+	public String getManagerName() {
+		return managerName;
+	}
+
+	public void setManagerName(String managerName) {
+		this.managerName = managerName;
+	}
 }
